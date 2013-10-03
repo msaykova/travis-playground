@@ -1,6 +1,6 @@
 laguage: python
 python:
   -"2.5"
-  install:
+install:
    -"pip install --user-mirrors django"
-   script: nosetests
+script: nosetests
